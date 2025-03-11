@@ -109,3 +109,7 @@ body{
     border: 1px dotted black;
     background-color: black;
 }
+
+video{
+    width: 100%;
+}

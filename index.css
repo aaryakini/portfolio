@@ -111,3 +111,27 @@ img{
     height: 80%;
     object-fit: cover;
 }
+
+#thesis:hover{
+    background-color: rgb(233, 255, 252);
+}
+
+#newswu:hover{
+    background-color: rgb(230, 227, 255);
+}
+
+#home:hover{
+    background-color: rgb(255, 253, 187);
+}
+
+#typeChoiceMatters:hover{
+    background-color: rgb(176, 206, 163);
+}
+
+#nyrdrc:hover{
+    background-color: rgb(240, 244, 255);
+}
+
+#relics:hover{
+    background-color: rgb(255, 171, 255);
+}
