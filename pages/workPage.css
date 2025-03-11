@@ -62,7 +62,7 @@ body{
     margin-top: 3vh;
 }
 
-.aboutFooter{
+#aboutFooter{
     position: absolute;
     bottom: 0px;
     width: 100%;
