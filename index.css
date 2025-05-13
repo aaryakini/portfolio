@@ -4,7 +4,8 @@
 body{
     overflow-x: hidden;
     box-sizing: border-box;
-    color: black;
+    color: whitesmoke;
+    background-color: black;
     margin: 0px;
     /* default font styling */
     font-family: source-serif-4-variable, sans-serif;
@@ -21,7 +22,7 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    border-bottom: 1px dotted black;
+    border-bottom: 0.75px dotted whitesmoke;
     padding: 0vh 1vw 0vh 1vw;
     margin-bottom: 3vh;
 }
@@ -56,7 +57,7 @@ body{
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    border-top: 1px dotted black;
+    border-top: 0.75px dotted whitesmoke;
     padding: 0vh 1vw 0vh 1vw;
     margin-top: 3vh;
 }
@@ -102,7 +103,7 @@ body{
     height: 100%;
     box-sizing: border-box;
     padding: 0% 2% 2% 2%;
-    border: 1px dotted black;
+    border: 1px solid black;
     height: fit-content;
 }
 
@@ -113,26 +114,32 @@ img{
 }
 
 #thesis:hover{
+    color: black;
     background-color: rgb(233, 255, 252);
 }
 
 #newswu:hover{
+    color: black;
     background-color: rgb(230, 227, 255);
 }
 
 #home:hover{
+    color: black;
     background-color: rgb(255, 253, 187);
 }
 
 #typeChoiceMatters:hover{
+    color: black;
     background-color: rgb(176, 206, 163);
 }
 
 #nyrdrc:hover{
+    color: black;
     background-color: rgb(240, 244, 255);
 }
 
 #relics:hover{
+    color: black;
     background-color: rgb(255, 171, 255);
 }
 
