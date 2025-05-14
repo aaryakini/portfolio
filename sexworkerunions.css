@@ -166,7 +166,7 @@ a {
 } */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) and (min-width: 300px) {
+@media only screen and (max-width: 600px){
     body{
         width: 100vw;
         overflow-x: hidden;
@@ -175,19 +175,6 @@ a {
         height: 100vh;
         width: 100vw;
         overflow-x: hidden;
-        /* padding: 2vh 1vw;
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        background-color: #3d1027;
-        color: #e5c2f1;
-        box-sizing: border-box;
-        background-image: 
-        url("sexworkerunions/bg.png");
-        background-size: cover;
-        background-blend-mode: screen; */
     }
     
     .main{
