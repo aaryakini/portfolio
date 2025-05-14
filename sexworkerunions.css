@@ -228,6 +228,11 @@ a {
         padding: 2vh 0vw 5vh 0vw;
         margin: auto;
     }
+
+    .asset img{
+        width: 100%;
+        height: fit-content;
+    }
     
     .footer{
         height: fit-content;
