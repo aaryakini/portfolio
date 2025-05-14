@@ -147,7 +147,7 @@ body{
 
 a {
     all: unset;
-    background-color: #e5c2f1;
+    text-decoration: underline;
 }
 
 .footer a {
@@ -261,7 +261,7 @@ a {
     
     a {
         all: unset;
-        background-color: #e5c2f1;
+        text-decoration: underline;
     }
     
     .footer a {
