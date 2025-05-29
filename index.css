@@ -1,18 +1,28 @@
-@import url("https://use.typekit.net/fko2cdd.css");
+/* @import url("https://use.typekit.net/fko2cdd.css"); */
+
+@font-face {
+    font-family: "Kyoto";
+    src: url('assets/fonts/PPKyoto-Regular.woff2'), format('woff2'),
+        url('assets/fonts/PPKyoto-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Kyoto";
+    src: url('assets/fonts/PPKyoto-RegularItalic.woff2'), format('woff2'),
+        url('assets/fonts/PPKyoto-RegularItalic.woff') format('woff');
+    font-style: italic;
+}
 
 /* across pages */
 body{
     overflow-x: hidden;
     box-sizing: border-box;
-    color: whitesmoke;
-    background-color: black;
+    color: black;
+    background-color: white;
     margin: 0px;
     /* default font styling */
-    font-family: source-serif-4-variable, sans-serif;
-    font-weight: 600;
-    font-style: normal;
+    font-family: 'Kyoto','Times New Roman', Times, serif;
     font-size: 14px;
-    letter-spacing: -0.005em;
     line-height: 125%;
 }
 
@@ -22,7 +32,7 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    border-bottom: 0.75px dotted whitesmoke;
+    border-bottom: 1.5px dotted black;
     padding: 0vh 1vw 0vh 1vw;
     margin-bottom: 3vh;
 }
@@ -57,7 +67,7 @@ body{
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    border-top: 0.75px dotted whitesmoke;
+    border-top: 1.5px dotted black;
     padding: 0vh 1vw 0vh 1vw;
     margin-top: 3vh;
 }
@@ -103,8 +113,12 @@ body{
     height: 100%;
     box-sizing: border-box;
     padding: 0% 2% 2% 2%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: fit-content;
+}
+
+.workCard:hover img{
+    filter:drop-shadow()
 }
 
 img{
@@ -113,7 +127,7 @@ img{
     object-fit: cover;
 }
 
-#thesis:hover{
+/* #thesis:hover{
     color: black;
     background-color: rgb(233, 255, 252);
 }
@@ -141,7 +155,7 @@ img{
 #relics:hover{
     color: black;
     background-color: rgb(255, 171, 255);
-}
+} */
 
 
 /* BREAKPOINTS */

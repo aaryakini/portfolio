@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
 
+
 body{
     font-family: 'Hedvig Letters Serif', Georgia, 'Times New Roman', Times, serif;
     font-size: 100%;
@@ -12,6 +13,10 @@ body{
     width: 100vw;
     font-variant-ligatures: none;
 }
+
+::selection {
+    background: #e5c2f1;
+  }
 
 .header{
     height: 100vh;
@@ -147,7 +152,12 @@ body{
 
 a {
     all: unset;
+    cursor: pointer;
     text-decoration: underline;
+}
+
+a:hover {
+   background-color: #e5c2f1;
 }
 
 .footer a {

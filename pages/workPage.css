@@ -1,19 +1,29 @@
-@import url("https://use.typekit.net/fko2cdd.css");
+/* @import url("https://use.typekit.net/fko2cdd.css"); */
+
+@font-face {
+    font-family: "Kyoto";
+    src: url('../assets/fonts/PPKyoto-Regular.woff2'), format('woff2'),
+        url('../assets/fonts/PPKyoto-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Kyoto";
+    src: url('../assets/fonts/PPKyoto-RegularItalic.woff2'), format('woff2'),
+        url('../assets/fonts/PPKyoto-RegularItalic.woff') format('woff');
+    font-style: italic;
+}
 
 /* across pages */
 body{
     overflow-x: hidden;
     box-sizing: border-box;
     color: black;
+    background-color: white;
     margin: 0px;
     /* default font styling */
-    font-family: source-serif-4-variable, sans-serif;
-    font-weight: 600;
-    font-style: normal;
+    font-family: 'Kyoto','Times New Roman', Times, serif;
     font-size: 14px;
-    letter-spacing: -0.005em;
     line-height: 125%;
-    min-height: 100vh;
 }
 
 .header{
@@ -22,7 +32,7 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    border-bottom: 1px dotted black;
+    border-bottom: 1.5px dotted black;
     padding: 0vh 1vw 0vh 1vw;
     margin-bottom: 3vh;
 }
@@ -57,7 +67,7 @@ body{
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    border-top: 1px dotted black;
+    border-top: 1.5px dotted black;
     padding: 0vh 1vw 0vh 1vw;
     margin-top: 3vh;
 }
@@ -90,20 +100,12 @@ body{
     padding: 0vh 1vw 4vh 1vw;
     display: grid;
     grid-template-columns: 1fr 3fr;
-    gap: 2vh;
+    gap: 3vw;
 }
 
 .workContainer h1{
     font-size: 20px;
-    letter-spacing: -0.005em;
-    line-height: 110%;
-}
-
-.imagesList{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2vh;
-    align-items: start;
+    line-height: 125%;
 }
 
 .workImages{
@@ -111,6 +113,13 @@ body{
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
+}
+
+.imagesList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vh;
+    align-items: start;
 }
 
 .workImages img{
@@ -127,20 +136,15 @@ body{
 .nav a{
     all: unset;
     cursor: pointer;
-    width: 60px;
     text-align: center;
+    line-height: 0.25vh;
     box-sizing: border-box;
-    padding: 0px 10px;
-    border: 1px dotted black;
+    margin: 0px 0px 20px 0px;
+    border-bottom: 1.5px dotted rgba(0, 0, 0, 0);
 }
 
 .nav a:hover{
-    width: 60px;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 0px 10px;
-    border: 1px dotted black;
-    background-color: black;
+    border-bottom: 1.5px dotted rgba(0, 0, 0, 1)
 }
 
 video{

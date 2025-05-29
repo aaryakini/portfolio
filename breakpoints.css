@@ -1,0 +1,175 @@
+/* BREAKPOINTS */
+/* x-small */
+@media only screen and (max-width: 576px) {
+    body{
+        font-size: 12px;
+        letter-spacing: -0.005em;
+        line-height: 125%;
+    }
+
+    .header{
+        padding: 0vh 3vw 0vh 3vw;
+    }
+
+    .workContainer{
+        grid-template-columns: 1fr;
+        padding: 0vh 3vw 4vh 3vw;
+        gap: 2vh;
+    }
+
+    .imagesList{
+        grid-template-columns: 1fr;
+        gap: 2vh;
+    }
+
+    .workContainer h1{
+        font-size: 16px;
+    }
+    
+    .workContainer h2{
+        font-size: 12px;
+    }
+
+    .nav{
+        padding: 0vh 3vw 0vh 3vw;
+    }
+
+    .footer p{
+        width: 60vw;
+    }
+
+    #sunset{
+        width: 90vw;
+    }
+}
+
+/* small */
+@media only screen and (min-width: 576px) {
+    .header{
+        padding: 0vh 3vw 0vh 3vw;
+    }
+
+    .workContainer{
+        grid-template-columns: 1fr;
+        padding: 0vh 3vw 4vh 3vw;
+        gap: 2vh;
+    }
+
+    .imagesList{
+        grid-template-columns: 1fr;
+        gap: 2vh;
+    }
+
+    .nav{
+        padding: 0vh 3vw 0vh 3vw;
+    }
+
+    .footer p{
+        width: 60vw;
+    }
+
+    #sunset{
+        width: 90vw;
+    }
+}
+
+/* medium */
+@media only screen and (min-width: 768px) {
+    .header{
+        padding: 0vh 2vw 0vh 2vw;
+    }
+
+    .workContainer{
+        grid-template-columns: 1fr;
+        padding: 0vh 2vw 4vh 2vw;
+        gap: 2vh;
+    }
+
+    .imagesList{
+        grid-template-columns: 1fr 1fr;
+        gap: 2vh;
+    }
+
+    .nav{
+        padding: 0vh 2vw 0vh 2vw;
+    }
+
+    .footer p{
+        width: 45vw;
+    }
+
+    #sunset{
+        width: 90vw;
+    }
+}
+
+/* large */
+@media only screen and (min-width: 992px) {
+    body{
+        font-size: 12px;
+    }
+
+    .header{
+        padding: 0vh 1vw 0vh 1vw;
+    }
+
+    .workContainer{
+        grid-template-columns: 1fr 2fr;
+        padding: 0vh 1vw 4vh 1vw;
+        gap: 2vh;
+    }
+
+    .workContainer h1{
+        font-size: 16px;
+    }
+
+    .imagesList{
+        grid-template-columns: 1fr 1fr;
+        gap: 2vh;
+    }
+
+    .nav{
+        padding: 0vh 1vw 0vh 1vw;
+    }
+
+    .footer p{
+        width: 80vw;
+    }
+
+    #sunset{
+        width: 50vw;
+    }
+}
+
+/* x-large onwards*/
+@media only screen and (min-width: 1200px) {
+    body{
+        font-size: 14px;
+    }
+
+    .workContainer h1{
+        font-size: 20px;
+    }
+    
+    .header{
+        padding: 0vh 1vw 0vh 1vw;
+    }
+
+    .workContainer{
+        grid-template-columns: 1fr 3fr;
+        padding: 0vh 1vw 4vh 1vw;
+        gap: 2vh;
+    }
+
+    .nav{
+        padding: 0vh 1vw 0vh 1vw;
+    }
+
+    .footer p{
+        width: 50vw;
+    }
+
+    #sunset{
+        width: 50vw;
+    }
+}
