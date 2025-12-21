@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+body {
+    box-sizing: border-box;
+  }
+  
+  #container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: black;
+  }
+
+  .headline {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Instrument Serif', serif;
+    width: 70%;
+    font-size: 3.2vw;
+    line-height: 3.4vw;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+  }
+
+  .subhead{
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: white;
+    width: 60%;
+    font-size: 18px;
+  }
+
+  .image{
+    height: 100vh;
+    width: 50vw;
+    overflow:hidden;
+  }
+
+  #stuJour{
+    overflow: hidden;
+  }
+
+  .viz{
+    width:80%;
+    justify-content: center;
+    margin: 1vw 0px 1vw 2vw;
+    border: solid black 1.5px;
+    border-radius: 2vw;
+  }
+  
+  .article {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    position: relative;
+    top: 110vh;
+    margin: auto;
+    width: 40vw;
+    padding-bottom: 15vh;
+  }
+
+  a{
+    color: #3f42db;
+    font-style: italic;
+  }
+
+  a:hover {
+    background: #ff7983;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+  }
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #container {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height: 140vh;
+      width: 100%;
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: black;
+    }
+
+    .headline {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    h1 {
+      font-family: 'Instrument Serif', serif;
+      width: 70%;
+      font-size: 9vw;
+      line-height: 9.4vw;
+      color: white;
+      letter-spacing: 1px;
+      margin-bottom: 0px;
+    }
+  
+    .subhead{
+      font-family: 'Schibsted Grotesk', sans-serif;
+      color: white;
+      width: 60%;
+      font-size: 14px;
+    }
+  
+    .image{
+      height: 40vh;
+      width: 100vw;
+      overflow:hidden;
+    }
+
+    .viz{
+      width:100%;
+      margin: auto;
+      justify-content: center;
+      border: solid black 1.5px;
+      border-radius: 4vw;
+    }
+    
+    .article {
+      font-family: 'Schibsted Grotesk', sans-serif;
+      font-size: 13px;
+      line-height: 18px;
+      position: relative;
+      top: 143vh;
+      margin: auto;
+      width: 65vw;
+      padding-bottom: 15vh;
+    }
+  }
