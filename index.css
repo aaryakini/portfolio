@@ -12,6 +12,25 @@ body{
     margin: 0px;
 }
 
+.alert{
+    width: 100%;
+    color: rgb(127, 127, 127);
+    /* background-color: rgb(253, 255, 213); */
+    /* background-color: aqua; */
+    box-sizing: border-box;
+    text-align: center;
+    padding: 8px 20px;
+    border-bottom: 1px dashed rgb(127, 127, 127);
+}
+
+.divider{
+    width: 100vw;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    /* background-color: pink; */
+}
+
 .container{
     width: 100vw;
     height: 100vh;
@@ -94,7 +113,7 @@ a{
 
 a:hover{
     text-decoration: underline;
-    color: rgb(39, 64, 255);
+    color: rgb(39, 86, 255);
 }
 
 h1{
