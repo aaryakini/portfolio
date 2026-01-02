@@ -1,4 +1,6 @@
 /* BREAKPOINTS */
+
+/* smallest */
 @media only screen and (max-width: 576px) {
     .container{
         width: 100vw;
@@ -8,7 +10,7 @@
         flex-flow: column;
     }
 
-    .column, #column4{
+    .column, #column3{
         width: 100vw;
         /* background-color: aqua; */
         display: flex;
@@ -46,7 +48,7 @@
         align-items: center;
     }
 
-    .column, #column4{
+    .column, #column3{
         width: 50vw;
         /* background-color: aqua; */
         display: flex;
@@ -88,7 +90,7 @@
         align-items: center;
     }
 
-    .column, #column4{
+    .column, #column3{
         width: 40vw;
         /* background-color: aqua; */
         display: flex;
